@@ -1,5 +1,6 @@
 import React from 'react';
 import { Label, InputSt } from './input.styled';
+import PropTypes from 'prop-types';
 
 export function Input({ onHandlerChange }) {
   return (
@@ -9,3 +10,7 @@ export function Input({ onHandlerChange }) {
     </Label>
   );
 }
+
+Input.propTypes = {
+  onHandlerChange: PropTypes.func.isRequired,
+};

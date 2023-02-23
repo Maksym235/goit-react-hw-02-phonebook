@@ -1,5 +1,6 @@
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { Item, Button } from './Contact.styled';
+import PropTypes from 'prop-types';
 export function Contact({ contact: { id, name, number }, onDeleteContact }) {
   return (
     <Item key={id}>
@@ -10,3 +11,12 @@ export function Contact({ contact: { id, name, number }, onDeleteContact }) {
     </Item>
   );
 }
+
+Contact.propTypes = {
+  contact: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
+  }),
+  onDeleteContact: PropTypes.func.isRequired,
+};

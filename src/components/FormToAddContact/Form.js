@@ -1,6 +1,7 @@
 import React from 'react';
 import { nanoid } from 'nanoid';
 import { FormStyled, Input, Label, Button } from './Form.styled';
+import PropTypes from 'prop-types';
 
 const INITIAL_STATE = {
   name: '',
@@ -76,3 +77,7 @@ export class Form extends React.Component {
     );
   }
 }
+
+Form.propTypes = {
+  onHandlerSubmit: PropTypes.func.isRequired,
+};

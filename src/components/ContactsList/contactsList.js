@@ -1,5 +1,5 @@
-import { Contact } from 'components/ContactItem/Contact';
-import { List } from './contactList.styled';
+import { Contact } from 'components/ContactItem/ContactItem';
+import { List } from './ContactList.styled';
 import PropTypes from 'prop-types';
 
 export default function ContactList({ data, onDeleteContact }) {

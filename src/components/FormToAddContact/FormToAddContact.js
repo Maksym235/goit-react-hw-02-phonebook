@@ -1,6 +1,6 @@
 import React from 'react';
 import { nanoid } from 'nanoid';
-import { FormStyled, Input, Label, Button } from './Form.styled';
+import { FormStyled, Input, Label, Button } from './FormToAddContact.styled';
 import PropTypes from 'prop-types';
 
 const INITIAL_STATE = {

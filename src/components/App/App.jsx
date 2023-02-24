@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import data from 'Data/data.json';
-import { Form } from 'components/FormToAddContact/Form';
-import ContactList from '../ContactsList/contactsList';
-import { Input } from '../FindInput/input';
+import { Form } from 'components/FormToAddContact/FormToAddContact';
+import ContactList from '../ContactsList/ContactsList';
+import { Input } from '../FindInput/FindInput';
 import { Conteiner, Title, ContactsTitle } from './appConteiner.styled';
 import { BsFillTelephonePlusFill } from 'react-icons/bs';
 import { IoMdContact } from 'react-icons/io';

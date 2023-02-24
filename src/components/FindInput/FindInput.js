@@ -1,5 +1,5 @@
 import React from 'react';
-import { Label, InputSt } from './input.styled';
+import { Label, InputSt } from './FindInput.styled';
 import PropTypes from 'prop-types';
 
 export function Input({ onHandlerChange }) {

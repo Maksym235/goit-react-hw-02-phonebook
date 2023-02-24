@@ -1,5 +1,5 @@
 import { AiFillCloseCircle } from 'react-icons/ai';
-import { Item, Button } from './Contact.styled';
+import { Item, Button } from './ContactItem.styled';
 import PropTypes from 'prop-types';
 export function Contact({ contact: { id, name, number }, onDeleteContact }) {
   return (
